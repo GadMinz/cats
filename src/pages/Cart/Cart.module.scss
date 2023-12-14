@@ -1,0 +1,22 @@
+.cart {
+  &_price {
+    display: flex;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: flex-end;
+    &_total {
+
+    }
+    &_new {
+      color: #ff0000;
+      margin-right: 5px;
+    }
+    &_old {
+      text-decoration: line-through;
+      opacity: 0.3;
+      user-select: none;
+    }
+  }
+}

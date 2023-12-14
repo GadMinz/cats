@@ -1,0 +1,14 @@
+.cat_modal {
+  .tags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    &_item {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background-color: #ff7f50;
+      font-size: 12px;
+    }
+  }
+}
