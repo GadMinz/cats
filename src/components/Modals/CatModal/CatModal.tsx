@@ -5,7 +5,8 @@ import { useModalStore } from "../../../store/modal.ts";
 
 const CatModal: React.FC = () => {
   const content = useModalStore((state) => state.modalContent);
-  const { tags, img } = content;
+  // @ts-ignore
+    const { tags, img } = content;
   return (
     <Modal>
       <div className={s.cat_modal}>
